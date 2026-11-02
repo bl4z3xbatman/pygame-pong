@@ -18,4 +18,8 @@ class Paddle:
         self.y = max(0, min(next_y, max_y))
 
     def draw(self, surface):
-        pygame.draw.rect(surface, self.color, (int(self.x), int(self.y), self.width, self.height))
+        pygame.draw.rect(
+            surface,
+            self.color,
+            (int(self.x), int(self.y), self.width, self.height),
+        )

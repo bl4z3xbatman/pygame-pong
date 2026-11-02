@@ -1,1 +1,1 @@
-"""Controllers package."""
+"""Models package."""

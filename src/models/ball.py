@@ -11,13 +11,6 @@ class Ball:
         self.vx = random.choice([-1, 1])
         self.vy = random.uniform(-1.0, 1.0)
 
-    def reset(self, direction):
-        self.x = 0
-        self.y = 0
-        self.speed = 5.5
-        self.vx = direction
-        self.vy = random.uniform(-1.0, 1.0)
-
     def update(self, dt, arena_width, arena_height):
         self.x += self.vx * self.speed * dt * 60
         self.y += self.vy * self.speed * dt * 60

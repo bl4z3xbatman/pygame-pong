@@ -1,1 +1,1 @@
-"""Models package."""
+"""Views package."""

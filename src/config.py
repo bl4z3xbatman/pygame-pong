@@ -18,7 +18,32 @@ BACKGROUND_COLOR = (10, 10, 10)
 DIVIDER_COLOR = (255, 255, 255)
 TEXT_COLOR = (255, 255, 255)
 
+PADDLE_COLORS = {
+    "classic": (255, 255, 255),
+    "blue": (77, 144, 254),
+    "red": (228, 68, 68),
+    "green": (75, 186, 93),
+    "gold": (255, 195, 0),
+}
+
+PADDLE_UNLOCK_REQUIREMENTS = {
+    "classic": 0.0,
+    "blue": 10.0,
+    "red": 25.0,
+    "green": 45.0,
+    "gold": 60.0,
+}
+
+PADDLE_COLOR_ORDER = [
+    "classic",
+    "blue",
+    "red",
+    "green",
+    "gold",
+]
+
 MENU_OPTIONS = {
     "single": "1 Player",
     "multi": "2 Players",
+    "color": "Color Select",
 }
